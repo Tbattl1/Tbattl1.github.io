@@ -41,6 +41,35 @@ var Camryn_Marker = L.marker([13.9094, -60.9789], {
 Camryn_Marker.bindPopup("Camryn says Hello from St. Lucia!");
 
 // Section 002 Markers
+var Toby_Marker = L.marker([35.8617, 104.1954], {
+	title: "Toby wants to travel to China"
+});
+
+Toby_Marker.bindPopup("Toby says Hello from China!");
+
+var Istar_Marker = L.marker([21.3891, 39.8579], {
+	title: "Istar wants to travel to Mecca"
+});
+Istar_Marker.bindPopup("Istar says Marhaba from Mecca!");
+
+var Abrum_Marker = L.marker([25.2048, 55.2708], {
+	title: "Abrum wants to travel to Dubai"
+});
+
+Abrum_Marker.bindPopup("Abrum says Hello from Dubai!");
+
+var Kiyah_Marker = L.marker([35.7023, 139.7745], {
+	title: "Kiyah wants to travel to Akihabara"
+});
+
+Kiyah_Marker.bindPopup("Kiyah says Hello from Akihabara!");
+
+Denilson_Marker.bindPopup("Denilson says Hello from Rio De Janeiro");
+var Denilson_Marker = L.marker([ -22.9027800,-43.2075000], {
+	title: "Denilson wants to travel to Rio De Janeiro"
+});
+Denilson_Marker.bindPopup("Denilson says Hello from Rio De Janeiro");
+
 
 
 var myMap = L.map("map", {
@@ -53,3 +82,8 @@ Sam_Marker.addTo(myMap);
 Jonathan_Marker.addTo(myMap);
 Semira_Marker.addTo(myMap);
 Camryn_Marker.addTo(myMap);
+Abrum_Marker.addTo(myMap);
+Kiyah_Marker.addTo(myMap);
+Denilson_Marker.addTo(myMap);
+Toby_Marker.addTo(myMap);
+Ishtar_Marker.addTo(myMap);
