@@ -41,15 +41,10 @@ var Camryn_Marker = L.marker([13.9094, -60.9789], {
 Camryn_Marker.bindPopup("Camryn says Hello from St. Lucia!");
 
 // Section 002 Markers
-var Toby_Marker = L.marker([35.8617, 104.1954], {
-	title: "Toby wants to travel to China"
-});
-
-Toby_Marker.bindPopup("Toby says Hello from China!");
-
 var Istar_Marker = L.marker([21.3891, 39.8579], {
 	title: "Istar wants to travel to Mecca"
 });
+
 Istar_Marker.bindPopup("Istar says Marhaba from Mecca!");
 
 var Abrum_Marker = L.marker([25.2048, 55.2708], {
@@ -58,19 +53,49 @@ var Abrum_Marker = L.marker([25.2048, 55.2708], {
 
 Abrum_Marker.bindPopup("Abrum says Hello from Dubai!");
 
+var Toby_Marker = L.marker([35.8617, 104.1954], {
+    title: "Toby wants to travel to China"
+});
+Toby_Marker.bindPopup("Toby says Hello from China!");
+
 var Kiyah_Marker = L.marker([35.7023, 139.7745], {
-	title: "Kiyah wants to travel to Akihabara"
+    title: "Kiyah wants to travel to Akihabara"
 });
 
 Kiyah_Marker.bindPopup("Kiyah says Hello from Akihabara!");
 
-Denilson_Marker.bindPopup("Denilson says Hello from Rio De Janeiro");
-var Denilson_Marker = L.marker([ -22.9027800,-43.2075000], {
-	title: "Denilson wants to travel to Rio De Janeiro"
+var Denilson_Marker = L.marker([-22.9027800, -43.2075000], {
+    title: "Denilson wants to travel to Rio De Janeiro"
 });
 Denilson_Marker.bindPopup("Denilson says Hello from Rio De Janeiro");
 
 
+// Schools
+var POB_Marker = L.marker([35.2387527, -80.8920165], {
+    title: "Phillip O'Berry High School"
+});
+
+POB_Marker.bindPopup("Phillip O'Berry High School");
+
+var HawthorneAcademy_Marker = L.marker([35.228878, -80.814613], {
+    title: "Hawthorne Academy of Health Science"
+});
+HawthorneAcademy_Marker.bindPopup("Hawthorne Academy of Health Science");
+
+var NorthMeck_Marker = L.marker([ 35.3731949, -80.833961], { title: "This is North Mecklenburg High" });
+NorthMeck_Marker.bindPopup("North Mecklenburg High School");
+
+var Ardrey_Kell_High_marker = L.marker([35.05, -80.81], {
+    title: "This Marker is at Ardrey Kell High School"
+});
+
+Ardrey_Kell_High_marker.bindPopup("Ardrey Kell High School");
+
+var Butler_Marker = L.marker([35.12028, -80.69306], {
+    title: "Butler High School"
+});
+
+Butler_Marker.bindPopup("Butler High School");
 
 var myMap = L.map("map", {
 	center: [0, 0],
@@ -82,8 +107,13 @@ Sam_Marker.addTo(myMap);
 Jonathan_Marker.addTo(myMap);
 Semira_Marker.addTo(myMap);
 Camryn_Marker.addTo(myMap);
+Istar_Marker.addTo(myMap);
 Abrum_Marker.addTo(myMap);
+Toby_Marker.addTo(myMap);
 Kiyah_Marker.addTo(myMap);
 Denilson_Marker.addTo(myMap);
-Toby_Marker.addTo(myMap);
-Ishtar_Marker.addTo(myMap);
+POB_Marker.addTo(myMap);
+HawthorneAcademy_Marker.addTo(myMap);
+NorthMeck_Marker.addTo(myMap);
+Ardrey_Kell_High_marker.addTo(myMap);
+Butler_Marker.addTo(myMap);
